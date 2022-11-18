@@ -1,4 +1,6 @@
 package Base;
 
-public interface ShapeInterface {
+interface ShapeInterface {
+    void calculatePerimeter();
+    void calculateArea();
 }
