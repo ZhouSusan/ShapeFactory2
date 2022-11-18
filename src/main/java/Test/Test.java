@@ -1,5 +1,6 @@
 package Test;
 import Shape.Circle;
+import Shape.Square;
 import Shape.Triangle;
 
 public class Test {
@@ -17,5 +18,10 @@ public class Test {
         System.out.println("\n****************************");
         System.out.format("\nPerimeter Triangle: %s", triango.calculatePerimeter());
         System.out.format("\nArea of Triangle: %s", triangolo.calculateArea());
+
+        Square squarey = new Square(5);
+        System.out.println("\n*****************************");
+        System.out.format("\nPerimeter of Square: %s", squarey.calculatePerimeter());
+        System.out.format("\nArea of Square: %s", squarey.calculateArea());
     }
 }
