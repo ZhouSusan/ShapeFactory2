@@ -22,15 +22,13 @@ public class Triangle implements ShapeInterface{
         this._c = c;
     }
 
-
-
     @Override
     public double calculatePerimeter() {
-        return 0;
+        return _a + _b + _c;
     }
 
     @Override
     public double calculateArea() {
-        return 0;
+        return (_height * _width) / 2;
     }
 }
