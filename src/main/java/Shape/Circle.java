@@ -8,10 +8,12 @@ public class Circle implements ShapeInterface {
         this._radius = radius;
     }
 
+    @Override
     public double calculatePerimeter() {
         return 2 * Math.PI * this._radius;
     }
 
+    @Override
     public double  calculateArea() {
         return this._radius * this._radius * Math.PI;
     }
